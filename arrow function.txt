@@ -1,0 +1,8 @@
+to write function in short manner
+can't be declared only expressed
+
+const func=(name)=>{
+    return `this is my name ${name}`
+}
+
+console.log(func("sumit"));

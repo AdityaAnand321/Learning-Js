@@ -1,0 +1,21 @@
+function declarations se pahle function call kar sakte hai
+
+console.log(one(5))
+function one(num)
+{
+    return num+1;
+}
+
+let two=function(num)
+{
+    return num+2;
+}
+
+isko expression bolte hai isly pahle access ny hota hai
+ye function se pahle access ny hota hai
+isko acess karne ke liye bad me hi likhna hota hai
+
+
+hoisting ka matlb hota variables aur function ka declaration code ke upare chala jata hai
+functions fully hoisted hote hai
+let const are hoisted but not initialzed

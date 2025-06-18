@@ -1,0 +1,14 @@
+const: 
+it follows scope rule
+can't be redeclared and updated
+
+
+let: 
+used nowadays
+updated but can't be redeclared
+follows scope rule
+
+var: 
+old way
+redeclared and updated
+no scope rule
