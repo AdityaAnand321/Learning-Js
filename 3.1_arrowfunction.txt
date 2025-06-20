@@ -6,3 +6,5 @@ const func=(name)=>{
 }
 
 console.log(func("sumit"));
+
+anonymous function: function without a name
