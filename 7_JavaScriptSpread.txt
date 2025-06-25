@@ -1,0 +1,25 @@
+js spread operator is denoted by three dots
+
+1.
+const arr=[1,2,3]
+const newArr = [5, 6, ...arr];
+console.log("New array (after spread operator):", newArr); // [5, 6, 1, 2, 3]
+
+
+2.
+Passing arguments:
+function sum(a, b, c) {
+    return a + b + c;
+}
+const nums = [1, 2, 3];
+const result = sum(...nums);
+console.log("Result of sum:", result); // 6
+
+
+Rest Operator: 
+const arr = [1, 2, 3, 4, 5];
+const first = arr[0]; // Extracting the first element
+const rest = arr.slice(1); // Collecting the rest of the elements
+console.log("First element:", first); // 1
+console.log("Rest of the elements:", rest); // [2, 3, 4, 5]
+

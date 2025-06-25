@@ -1,0 +1,18 @@
+1.array destructing: technique to extract array values in new variables
+e.g.: 
+const profile = ["Oluwatobi", "Sofela", "codesweetly.com"];
+const [firstName, lastName, website] = profile
+
+2.ye bhi ek tareeka hota hai 
+const [firstName, ...otherInfo] = ["Oluwatobi", "Sofela", "codesweetly.com"];
+
+3.console.log(firstName); // "Oluwatobi"
+console.log(otherInfo); // ["Sofela", "codesweetly.com"]
+
+4.agar values skip karni hoto const [, , website] = ["Oluwatobi", "Sofela", "codesweetly.com"];
+console.log(website); // "codesweetly.com"
+
+5.const [firstName = "Tobi", website = "CodeSweetly"] = ["Oluwatobi"];
+console.log(firstName); // "Oluwatobi"
+console.log(website); // "CodeSweetly"
+ye default value set karne ka tareeka hai

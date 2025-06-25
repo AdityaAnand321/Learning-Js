@@ -1,0 +1,50 @@
+extract object values in new variables
+1.const profile = {
+  firstName: "Oluwatobi", 
+  lastName: "Sofela", 
+  website: "codesweetly.com"
+};
+const { firstName: firstName, lastName: lastName, website: website } = profile;
+console.log(firstName); // "Oluwatobi"
+console.log(lastName); // "Sofela"
+console.log(website); // "codesweetly.com"
+or
+onst { firstName, lastName, website } = profile;//ase bhi likh sakte hai
+
+
+2. 
+jab name different ho to is equal to object likhenge aur name bad me likhenge 
+onst profile = {
+  firstName: "Oluwatobi", 
+  lastName: "Sofela", 
+  website: "codesweetly.com"
+};
+const { firstName: forename, lastName: surname, website: onlineSite } = profile;
+console.log(forename); // "Oluwatobi"
+console.log(surname); // "Sofela"
+console.log(onlineSite); // "codesweetly.com"
+console.log(website); // "ReferenceError: website is not defined"
+
+3.doing directly
+const { firstName, lastName, website } = {
+  firstName: "Oluwatobi", 
+  lastName: "Sofela", 
+  website: "codesweetly.com"
+};
+
+4.const { firstName, ...otherInfo } = {
+  firstName: "Oluwatobi",
+  lastName: "Sofela",
+  website: "codesweetly.com"
+};
+
+console.log(firstName); // "Oluwatobi"
+console.log(otherInfo); // {lastName: "Sofela", website: "codesweetly.com"}
+
+5.swapping values in object destructing
+let firstName = "Oluwatobi";
+let website = "CodeSweetly";
+
+({ firstName, website } = {firstName: website, website: firstName});
+console.log(firstName); // "CodeSweetly"
+console.log(website); // "Oluwatobi"

@@ -1,0 +1,14 @@
+dom: helps us to interact and manipulate the elements on webpage
+document: refers to the webpage we see in the browser: 
+object: images,headers,para are treated as object
+
+1.document.getElementById: selects the elements by their id , if no elements present then return null
+2.document.getElementByClassName: by className
+agar class me bhut sare elements hai to unko select clasName[0] index se karenge
+
+3.getElementsByTagName: selects the elements using their tag name: 
+
+4.Queryselector: used to select any html element returns one element at a time
+class me .classname likhenge id me #id
+
+5.querySelectorAll: it selects all the elements matching 
