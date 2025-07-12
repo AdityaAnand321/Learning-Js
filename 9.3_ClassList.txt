@@ -1,0 +1,22 @@
+classList ko use karke class add or remove kar sakte hai or toggle bhi kar sakte hai
+
+::Adding the class
+
+<p class="c1">Hello World</p>
+const para=document.querySelector('p');
+para.classList.add(c2,c3);
+
+::removing the classes
+para.classList.remove('c2');
+
+::replace the classes
+para.classList.replace('c1','c5')
+
+::contains returns true false
+para.classList.contains('c4');
+
+::Toggle: isme pahle check karega ki present hai ya ny
+          Agar present hoga to remove kardega 
+          agar present ny hoga to add kardega
+        eg: para.classList.toggle(c1);
+            para.classList.toggle(c2);

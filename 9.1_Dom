@@ -1,8 +1,0 @@
-Changing the contens of html 
-
-1.innerHTML: can change the word
-            also can change html structure
-
-inner text and textContent: ignores html tags and treat them as string
-innertxt: return visible text
-text content: return all the texts

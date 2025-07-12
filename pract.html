@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>14
+</head>
+<body>
+    <div class="inp">
+    <input type="text" placeholder="Enter the task" id="task"><button id="btn" onclick="add()">Add</button>
+    </div> 
+    <div id="area">
+
+    </div>
+
+    <script>
+        let tsk=document.getElementById("task");
+        let ar=document.getElementById("area");
+
+        function add(){
+
+            if(tsk.text =="")
+            alert("empty");
+            else{
+            let nt=document.createElement("ul");
+            nt.innerText=tsk.value;
+            ar.appendChild(nt);
+            tsk.value="";
+            }
+        }
+    </script>
+</body>
+</html>

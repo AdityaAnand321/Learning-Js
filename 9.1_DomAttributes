@@ -1,0 +1,26 @@
+Changing the contens of html 
+
+1.innerHTML: can change the word
+            also can change html structure
+
+inner text and textContent: ignores html tags and treat them as string
+innertxt: return visible text
+text content: return all the texts
+
+attributes: provides extra info about html elements: id,class,href,attributes
+
+::getAttribute: ise dekh sakte hai ki element me kya attribute use ho rha hai
+eg: img src="image.jpg" alt="An example image">
+const imageElement = document.querySelector('img')
+console.log(imageElement.getAttribute('src'))
+output: image.jpg
+ 
+:: setAttribute: ise attribute change kar sakte hai setAttribute('name',whatwe want to add);
+eg: imageElement.setAttribute('src', 'new-image.jpg')
+
+::removeAttribute: remove karne se null hojata hai 
+imageElement.removeAttribute('height', '200')
+
+::hasAttribute: tels whether element have that particular attribute or not
+console.log("HEIGHT", imageElement.hasAttribute('height')) return true or false
+

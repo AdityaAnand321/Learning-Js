@@ -1,0 +1,11 @@
+style ko dot se laga skte hai ye poorana wale ko overwrite kar deta hai
+
+let para=document.querySelector('h1)
+para.style.color='white'
+para.style.backgroundcolor='red'
+
+::style ko delete bhi kar sakte by using empty string ara.style.backgroundcolor=" ";
+
+
+::class Name bhi change kar sakte hai
+para.className='new class'

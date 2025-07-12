@@ -11,9 +11,10 @@ Passing arguments:
 function sum(a, b, c) {
     return a + b + c;
 }
+
 const nums = [1, 2, 3];
 const result = sum(...nums);
-console.log("Result of sum:", result); // 6
+console.log("Result of sum:", result); // 6 
 
 
 Rest Operator: 

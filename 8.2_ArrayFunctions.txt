@@ -1,0 +1,72 @@
+1.Push: arr.push(5) it returns the new size of array
+
+2.Pop: removes last element arr.pop() and returns it
+
+3.shift() removes first element and returns it
+
+4.unshift add elements in the begining returns new length
+
+5.length arr.length
+
+
+
+6.slice: beech ka sections extract karne ke liye use karte hai
+    arr.slice(1,3)
+7.concat: it is used to merge two or more arrays
+          it does not change the original array but returns new array
+        ar1.concat(ar2);
+8.splice: add, remove ,replace karta hai
+        add karne ke liye arr.splice(start,delete,item1,item2..)
+        arr.splice(1,0,20,30);
+        remove arr.splice(1,2);
+        arr.splice(1,1,99);
+
+9.Map: array ke elements me function apply karke new array return karta hai
+       let newarray=array.map(function(element,index,array){});
+
+       let newArray=arr.map(e1=>e1*2);
+       original array me koi modification ny karta hai
+
+10. filter: creates new array only those element who pass the condition
+    let newArray=array.filter(e1=>e1>5);
+
+11.forEach: kuch return ny karta hai
+            : har element pe kuch operation perform kar sakte hai
+
+12.reduce: reduce each array to a single value
+            arr.reduce(total,currentelement=>{},initialValue);
+
+13.find: return first element in js that matches the condition
+let arr = [1, 3, 4, 6, 8];
+let firstEven = arr.find(x => x % 2 === 0);
+console.log(firstEven); // 4
+
+
+14.findIndex: return the index of the element that matches the condition
+
+15.sort()= arr.sort((a,b)=>a-b);
+   reverse()=arr.reverse();
+
+16.join(): array to string 
+            let result=arr.join();
+            let result=arr.join(-);
+    reverse the string 
+    let str = "hello";
+    let reversed = str.split("").reverse().join("");
+    console.log(reversed); // "olleh"
+
+17.split: let a="hello"
+          let b=a.split();
+
+18. indexOf: returns the first index of occurence of elements 
+    array.indexOf(element,from element); returns -1
+
+19.include: search for the element in the array
+            arr.include(element,from index)
+
+20.lastIndexOf: search the last index 
+            arr.lastIndexOf(element)
+            
+
+
+

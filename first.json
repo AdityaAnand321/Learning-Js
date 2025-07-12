@@ -1,0 +1,9 @@
+//key value pair hota hai
+//single quote use ny hota hai json me
+
+{
+    "name": "Aditya",
+    "score":11.75,
+    "isAdmin":false
+}
+

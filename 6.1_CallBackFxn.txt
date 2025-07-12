@@ -1,6 +1,6 @@
 A callback function is a function in JavaScript that is called (or invoked) by the first function after the first function has completed its task.
 
- Basic Example in JavaScript:
+Basic Example in JavaScript:
 javascript
 Copy
 Edit

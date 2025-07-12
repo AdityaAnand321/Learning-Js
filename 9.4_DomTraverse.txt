@@ -1,0 +1,19 @@
+element: sirf tag wali cheeze ko element kahte hai 
+        eg: <p>,<h1>
+node: iske undar sab ata hai element,text,comment
+
+para.parentNode: isse ham parent ke bare me jan sakte hai
+
+
+childNode: ye sab kuch return karta hai element,text,comment
+children: sirf element return karta hai
+
+
+If you need to select only the first/last child or element, you can use these four properties.
+firstChild: Selects only the first child node of the parent element.
+lastChild: Selects only the last child node of the parent element.
+firstElementChild: Selects only the first child element of the parent.
+lastElementChild: Selects only the last child element of the parent.
+Let's use the same example from the previous section to see how each
+
+we can also select the next sibling previous siblings

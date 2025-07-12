@@ -1,0 +1,17 @@
+this helps us to attach more than one event
+takes two arguments(event,eventHandler');
+
+btn.addEventListener('click',function(){
+    console.log("hello")
+})
+
+btn.addEventListener('click',function(){
+    console.log("hello this is 2nd event")
+})
+
+const giftBoxElement = document.getElementById('gift-box')
+const buttonElement = document.getElementById('click-btn')
+
+buttonElement.addEventListener('click', function() {
+  giftBoxElement.classList.remove('hide')
+})

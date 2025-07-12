@@ -1,0 +1,26 @@
+js modules are a way to structure and organize code
+to use one file in another you need to export and import 
+
+Types of FileExports in Js: 
+1.default exports: it is used only once
+        function hello();
+        export default hello;
+        or export default function hello();
+
+2.named exports: share multiple models thru it
+                no need to use word default;
+                eg: export hello, export{hello,name}
+
+
+:: rename bhi kar sakte hai exports: export {sayHello as greet}
+
+Types of FileImports in Js: 
+1.import getAlluser from "getuser.js"
+2.import {name} from "username.js"
+3. import {name, sayHello} from 'user.js'
+4. rename imports: import {userName as name, greet as sayHello} from 'user.js'
+5. import entire module import * from "user.js"
+
+here is how to use it 
+user.name: 
+user.functionname;

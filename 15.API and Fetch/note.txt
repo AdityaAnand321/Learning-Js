@@ -1,0 +1,6 @@
+fetch use karte hai 
+1.prepare url/api->sync
+2.fetch data->network call->async
+3.process data->sync
+
+post: Array of objects: 

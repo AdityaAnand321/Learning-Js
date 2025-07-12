@@ -1,0 +1,18 @@
+Javascript Object Notation
+{
+    "key"
+}
+
+1.stored data in key and value pairs
+2.key stored in double quotes
+3.function allow ny hota hai 
+
+Convert Js Object to JSON string
+
+let obj={name: aditya, age: 25}
+let jsonStr=JSON.stringify(obj);
+// Convert JSON string to Js Object
+
+let jsonStr='{"name":"aditya","age":25}';
+let obj=JSON.parse(jsonStr);
+

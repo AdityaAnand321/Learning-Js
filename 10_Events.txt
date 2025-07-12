@@ -1,0 +1,18 @@
+Actions that take place in browser eg: click, move , type
+
+eventListener: Tells when an event has taken place
+                keeps an eye on dom event
+
+eventHandler: runs when an event occurs
+
+1.Inline Event eventHandler
+<button onclick="alert('Hello')">click me</button>
+
+2.Using on Event eventHandler
+const btn=document.querySelector('button')
+btn.onclick=function(){
+    console.log("Hello");
+}
+
+if many onclick are their only last will run since before it overrides 
+
